@@ -1,0 +1,9 @@
+{
+  "env": {
+    "ANTHROPIC_BASE_URL": "https://ete-litellm.ai-models.vpc.res.ibm.com",
+    "ANTHROPIC_AUTH_TOKEN": "sk-759gaiCYxccywCIJ4gJw6Q"
+  },
+  "alwaysThinkingEnabled": false,
+  "theme": "dark",
+  "opusPlanEnabled": true
+}
