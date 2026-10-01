@@ -113,7 +113,7 @@ img { max-width: 100%; }
 .item-media .logo-wide { width: 160px; max-height: 98px; }
 .item-media .logo-tall { width: 92px; height: 112px; }
 .item-media .logo-square { width: 106px; height: 106px; }
-.item-media .logo-hidream { width: 72px; height: 72px; }
+.item-media .logo-hidream { width: 54px; height: 54px; }
 .timeline h3 { margin: 0 0 5px; font-size: 1.3125rem; line-height: 1.4; font-weight: 700; letter-spacing: -.025em; }
 .timeline h3 a { color: var(--ink); }
 .timeline h3 a:hover { color: var(--accent); }
@@ -153,7 +153,7 @@ img { max-width: 100%; }
   .item-media .logo-wide { width: 96px; max-height: 78px; }
   .item-media .logo-tall { width: 65px; height: 84px; }
   .item-media .logo-square { width: 80px; height: 80px; }
-  .item-media .logo-hidream { width: 55px; height: 55px; }
+  .item-media .logo-hidream { width: 42px; height: 42px; }
   .timeline h3 { font-size: 1.125rem; }
   .timeline p, .timeline .mentor, .timeline .advisor { font-size: 1rem; }
 }
