@@ -46,6 +46,7 @@ img { max-width: 100%; }
 .bio a { font-weight: 600; }
 .research-focus { margin: 20px 0 24px; padding-left: 16px; border-left: 3px solid #b3c9e4; font-size: 1.0625rem; color: var(--muted); }
 .research-focus strong { color: var(--accent); font-weight: 700; }
+.research-focus a strong { color: inherit; }
 .links { display: flex; flex-wrap: wrap; gap: 10px; }
 .social-button {
   display: inline-flex; align-items: center; justify-content: center; gap: 9px;
@@ -113,11 +114,14 @@ img { max-width: 100%; }
 .item-media .logo-wide { width: 160px; max-height: 98px; }
 .item-media .logo-tall { width: 92px; height: 112px; }
 .item-media .logo-square { width: 106px; height: 106px; }
-.item-media .logo-hidream { width: 54px; height: 54px; }
+.item-media .logo-mit-ibm { width: 132px; height: auto; }
+.item-media .logo-hidream { width: 72px; height: auto; }
+.item-media .logo-meta { width: 100px; height: auto; }
 .timeline h3 { margin: 0 0 5px; font-size: 1.3125rem; line-height: 1.4; font-weight: 700; letter-spacing: -.025em; }
 .timeline h3 a { color: var(--ink); }
 .timeline h3 a:hover { color: var(--accent); }
 .timeline p { margin: 3px 0; color: var(--muted); font-size: 1.0625rem; line-height: 1.65; }
+#experience .timeline-item p { margin: 0; }
 .timeline time { font: inherit; font-variant-numeric: tabular-nums; }
 .timeline .mentor, .timeline .advisor { font-size: 1.0625rem; }
 .footer { padding-block: 25px 32px; color: #738092; font-size: .875rem; }
@@ -153,7 +157,9 @@ img { max-width: 100%; }
   .item-media .logo-wide { width: 96px; max-height: 78px; }
   .item-media .logo-tall { width: 65px; height: 84px; }
   .item-media .logo-square { width: 80px; height: 80px; }
-  .item-media .logo-hidream { width: 42px; height: 42px; }
+  .item-media .logo-mit-ibm { width: 96px; height: auto; }
+  .item-media .logo-hidream { width: 54px; height: auto; }
+  .item-media .logo-meta { width: 76px; height: auto; }
   .timeline h3 { font-size: 1.125rem; }
   .timeline p, .timeline .mentor, .timeline .advisor { font-size: 1rem; }
 }

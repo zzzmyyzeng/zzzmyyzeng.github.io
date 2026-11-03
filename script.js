@@ -71,6 +71,23 @@ if (publicationTablist && publicationTabs.length) {
   publicationTablist.hidden = false;
 }
 
+// Research keywords open their topic before smoothly scrolling to the publications.
+document.querySelectorAll('[data-publication-tab]').forEach(link => {
+  link.addEventListener('click', event => {
+    if (event.button !== 0 || event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return;
+    const tab = publicationTabs.find(tab => tab.id === link.dataset.publicationTab);
+    const section = document.querySelector('#publications');
+    if (!tab || !section) return;
+    event.preventDefault();
+    selectPublicationTab(tab);
+    tab.focus({ preventScroll: true });
+    section.scrollIntoView({
+      behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth',
+      block: 'start'
+    });
+  });
+});
+
 // Cycle through the original still portrait and the two animated portraits.
 const profilePhoto = document.querySelector('#profile-photo');
 const profileToggle = document.querySelector('.photo-toggle');
